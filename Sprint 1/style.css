@@ -1,20 +1,25 @@
 Body {
     font-family: Calibri, Helvetica, sans-serif;
-    background-color: white;
+    
+    background-image: linear-gradient(rgba(46, 238, 255, 0.7),rgba(0, 81, 96, 0.7)),url(images/download.jpg);
+    
+    background-size: cover;
 }
 
 button {
-    background-color: green;
+    background-color: rgb(0, 0, 116);
     width: 100%;
-    color: orange;
+    color: rgb(255, 166, 0);
     padding: 15px;
     margin: 10px 0px;
     border: none;
+    
     cursor: pointer;
 }
 
 form {
-    border: 100px solid #ffffff;
+    border: 100px solid rgba(46, 238, 255, 0.7);
+    
 }
 
 input[type=text],
@@ -23,12 +28,13 @@ input[type=password] {
     margin: 8px 0;
     padding: 12px 20px;
     display: inline-block;
-    border: 2px solid green;
+    border: 2px solid rgb(22, 2, 103);
+    
     box-sizing: border-box;
 }
 
 button:hover {
-    opacity: 0.7;
+    opacity: 0.2;
 }
 
 .cancelbtn {
@@ -40,5 +46,5 @@ button:hover {
 
 .container {
     padding: 25px;
-    background-color: lightblue;
+    background-color: rgb(255, 255, 255);
 }
